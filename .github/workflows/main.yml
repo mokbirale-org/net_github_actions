@@ -20,7 +20,7 @@ jobs:
         - name: Run application 
           env: 
             API_KEY: ${{ secrets.API_KEY }}
-          run: dotnet run --project  ./../SimpleApiCall/SimpleApiCall/SimpleApiCall.csproj
+          run: dotnet run --project  ./../SimpleApiCall/SimpleApiCall.csproj
 
             
       
